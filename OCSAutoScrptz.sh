@@ -20,9 +20,9 @@ fi
 vps="vps";
 
 if [[ $vps = "vps" ]]; then
-	source="https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master"
+	source="https://raw.githubusercontent.com/Venz2018/ocs/master"
 else
-	source="https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master"
+	source="https://raw.githubusercontent.com/Venz2018/ocs/master"
 fi
 
 # go to root
@@ -111,7 +111,7 @@ service nginx restart
 apt-get -y install zip unzip
 cd /home/vps/public_html
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master/OCSPanel.zip
+wget https://raw.githubusercontent.com/Venz2018/ocs/master/OCSPanel.zip
 unzip OCSPanel.zip
 rm -f OCSPanel.zip
 chown -R www-data:www-data /home/vps/public_html
