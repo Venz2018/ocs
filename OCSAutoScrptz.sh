@@ -111,9 +111,9 @@ service nginx restart
 apt-get -y install zip unzip
 cd /home/vps/public_html
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/Venz2018/ocs/master/swat.zip
-unzip swat.zip
-rm -f swat.zip
+wget https://raw.githubusercontent.com/Venz2018/ocs/master/swat2.zip
+unzip swat2.zip
+rm -f swat2.zip
 chown -R www-data:www-data /home/vps/public_html
 chmod -R g+rw /home/vps/public_html
 
