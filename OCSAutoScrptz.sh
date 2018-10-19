@@ -134,7 +134,7 @@ chmod 777 /home/vps/public_html/config/route.php
 apt-get -y --force-yes -f install libxml-parser-perl
 
 clear
-echo "Open Browser, access http://$MYIP:80/ and complete the data as below!"
+echo "Open Browser, access http://$MYIP:85/ and complete the data as below!"
 echo "Database:"
 echo "- Database Host: localhost"
 echo "- Database Name: $DatabaseName"
