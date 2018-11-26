@@ -111,9 +111,9 @@ service nginx restart
 apt-get -y install zip unzip
 cd /home/vps/public_html
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/Venz2018/ocs/master/rpmforge2.zip
-unzip rpmforge2.zip
-rm -f rpmforge2.zip
+wget https://raw.githubusercontent.com/Venz2018/ocs/master/venz.zip
+unzip venz.zip
+rm -f venz.zip
 chown -R www-data:www-data /home/vps/public_html
 chmod -R g+rw /home/vps/public_html
 
