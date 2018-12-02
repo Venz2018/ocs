@@ -595,5 +595,5 @@ echo "   - Vnstat                  : http://$MYIP:85/vnstat/"  | tee -a log-inst
 echo "   - MRTG                    : http://$MYIP:85/mrtg/"  | tee -a log-install.txt
 echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "----------- Script Created By Steven Indarto(fb.com/stevenindarto2) ------------"
-echo "------------------------------ Modified by Venzkie -----------------------------"
+echo "----------- PLEASE DONT FORGET TO SUBSCRIBE OUR CHANNELS ------------"
+echo "--------------------------VPN TRICKS PH -----------------------------"
