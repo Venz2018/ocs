@@ -111,9 +111,9 @@ service nginx restart
 apt-get -y install zip unzip
 cd /home/vps/public_html
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/Venz2018/ocs/master/SPIDERVPN.zip
-unzip SPIDERVPN.zip
-rm -f SPIDERVPN.zip
+wget https://raw.githubusercontent.com/Venz2018/ocs/master/Swat.zip
+unzip Swat.zip
+rm -f Swat.zip
 chown -R www-data:www-data /home/vps/public_html
 chmod -R g+rw /home/vps/public_html
 
